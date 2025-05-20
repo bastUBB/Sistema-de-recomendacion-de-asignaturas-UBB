@@ -12,6 +12,6 @@ su carga académica de manera estratégica, eficiente y acorde a sus necesidades
 ## Integrantes
 
 - Nicolás Gómez ([@NicoGomezM](https://github.com/NicoGomezM))
-- Felipe Guerra ()
+- Felipe Guerra ([@FelipeGI1](https://github.com/FelipeGI1))
 - Bastián Rodríguez ([@bastUBB](https://github.com/bastUBB))
 - Claudia Sobino ([@Clau-SS](https://github.com/Clau-SS))
