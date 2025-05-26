@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const Propuesta = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <div className="propuesta-container">
+      <header className="propuesta-header">
+        <h1>Plataforma de Inscripción UBB</h1>
+      </header>
+      <main className="propuesta-content">
+        <h2>Propuesta del Proyecto</h2>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          El presente proyecto propone la implementación de una plataforma web
+          orientada a la optimización del proceso de inscripción de asignaturas
+          de la Universidad del Bío-Bío, el cual tiene como propósito principal
+          brindar un espacio de asistencia personalizada a los estudiantes, en
+          donde se les permita planificar su carga académica de manera
+          estratégica, eficiente y acorde a sus necesidades particulares.
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      </main>
+    </div>
+  );
+};
 
-export default App
+export default Propuesta;
